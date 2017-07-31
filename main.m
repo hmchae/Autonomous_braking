@@ -29,7 +29,7 @@ veh_traj_mat = cell(max_episodes,1);
 if test == 1
     batch_size = 1; % Size of batch for DQN
     replay_memory_size = 1; % Size of replay memory
-        trauma_memory_size = 1;
+    trauma_memory_size = 1;
     learning_rate =0.0000;
     epsilon_init = 0; % Initial epsilon for e-greedy policy
     random_play = 1; % Number of random play episodes
